@@ -1,0 +1,41 @@
+Create new ivr
+
+General Info
+    URL: Go to wikipage and select a generic ivr
+        ivt:http://ivrweb/g/main.js?library=XXXX&prompt=XXXXXXX
+        Library: Catalog
+        Prompt: Id of sound file, ! check if the file has a space in the beggining
+    Description: Date [name] description (case ticket: #)
+
+After save IVR, go to routing -> campaign -> name of campaign -> check 
+
+Configure the IVR name to our Created IVR for testing.
+
+Jus in case set a offer configuration.
+
+Programs
+    Identifier is used mostly for reporting
+
+HAngout the ivr to test ivt
+
+Aware about ivr attributes name because some have diferente name 
+
+
+
+Create campaign
+
+    name
+
+    routing class: Standar IVR
+
+    program: Depend on the IVR from customer
+
+    Comment: Comment about the campaign, details
+
+
+Config campaign
+    General: By default
+    Pools: Important in test, set correct to test
+    IVRS: Ivrs :v 
+    Offers: Related ti a program
+    
